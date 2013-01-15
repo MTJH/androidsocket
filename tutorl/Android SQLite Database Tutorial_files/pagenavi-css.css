@@ -1,0 +1,41 @@
+/*
+Default style for WP-PageNavi plugin
+
+http://wordpress.org/extend/plugins/wp-pagenavi/
+*/
+
+.wp-pagenavi {
+    clear: both;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+    text-decoration: none;
+    border: 1px solid #b3b3b3;
+    padding: 5px 8px;
+    margin: 2px;
+    background: url('http://www.androidhive.info/wp-content/themes/androidhive/images/pagi_default.png') 0 0 repeat-x;
+    color: #000000;
+    font-size:11px;
+}
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+    border: 1px solid #afc000;
+    padding: 5px 8px;
+    margin: 2px;
+    background: url('http://www.androidhive.info/wp-content/themes/androidhive/images/pagi_curr.png') 0 0 repeat-x;
+    color: #ffffff;
+    font-size:11px;
+}
+.wp-pagenavi span.pages{
+    background: none;
+    border: none;
+    color: #a7a7a7;
+    float: right;
+    margin-right:30px;
+    font-size: 13px;
+    margin-top:-8px;
+}
+
+.wp-pagenavi span.current {
+    font-weight: bold;
+}

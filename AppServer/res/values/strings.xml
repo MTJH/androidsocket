@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">AppServer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_app_server">AppServerActivity</string>
+    <string name="pesandariclient">Pesan dari Client</string>
+
+</resources>
